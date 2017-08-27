@@ -1,0 +1,31 @@
+Option Explicit
+
+Private Declare Function OpenProcess Lib "kernel32" (ByVal dwDesiredAccess As Long, ByVal bInheritHandle As Long, ByVal dwProcessId As Long) As Long
+Private Declare Function GetExitCodeProcess Lib "kernel32" (ByVal hProcess As Long, lpExitCode As Long) As Long
+Private Declare Function CloseHandle Lib "kernel32" (ByVal hObject As Long) As Long
+
+Const PROCESS_QUERY_INFORMATION = &H400
+Const STILL_ACTIVE = &H103
+
+Private Sub cmdwatch_Click()
+   Dim ProcessId&
+   Dim hProcess&
+   Dim ExitCode&
+   ProcessId = Shell("notepad.exe", vbNormalFocus)
+   hProcess = OpenProcess(PROCESS_QUERY_INFORMATION, _
+    False, ProcessId)
+   cmdwatch.Enabled = False
+   Do
+      Call GetExitCodeProcess(hProcess, ExitCode)
+      DoEvents
+   Loop While (ExitCode = STILL_ACTIVE)
+   cmdwatch.Enabled = True
+   Call CloseHandle(hProcess)
+
+End Sub
+
+Private Sub Form_Unload(Cancel As Integer)
+    If Not cmdwatch.Enabled Then
+        Cancel = 1
+    End If
+End Sub

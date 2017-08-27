@@ -1,0 +1,10 @@
+C:\Users\User\Documents\Visual Studio 2005\Projects\IPA2\IPA2\obj\Release\IPA2.exe
+C:\Users\User\Documents\Visual Studio 2005\Projects\IPA2\IPA2\obj\Release\IPA2.pdb
+C:\Users\User\Documents\Visual Studio 2005\Projects\IPA2\IPA2\bin\Release\IPA2.exe
+C:\Users\User\Documents\Visual Studio 2005\Projects\IPA2\IPA2\bin\Release\IPA2.pdb
+C:\Users\User\Documents\Visual Studio 2005\Projects\IPA2\IPA2\obj\Release\ResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2005\Projects\IPA2\IPA2\obj\Release\IPA2.About.resources
+C:\Users\User\Documents\Visual Studio 2005\Projects\IPA2\IPA2\obj\Release\IPA2.Form1.resources
+C:\Users\User\Documents\Visual Studio 2005\Projects\IPA2\IPA2\obj\Release\IPA2.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2005\Projects\IPA2\IPA2\obj\Release\IPA2.Ημερολόγιο.resources
+C:\Users\User\Documents\Visual Studio 2005\Projects\IPA2\IPA2\obj\Release\IPA2.csproj.GenerateResource.Cache

@@ -1,0 +1,142 @@
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA2/bin/Release/IPA4.exe.config
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA2/bin/Release/IPA4.exe.manifest
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA2/bin/Release/IPA4.application
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA2/bin/Release/IPA4.exe
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA2/bin/Release/IPA4.pdb
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA2/bin/Release/Interop.SpeechLib.dll
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA2/obj/Release/ResolveAssemblyReference.cache
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA2/obj/Release/Interop.SpeechLib.dll
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA2/obj/Release/IPA4.csproj.ResolveComReference.cache
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA2/obj/Release/IPA4.About.resources
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA2/obj/Release/IPA4.FindDialog.resources
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA2/obj/Release/IPA4.Form1.resources
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA2/obj/Release/IPA4.Help.resources
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA2/obj/Release/IPA4.Properties.Resources.resources
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA2/obj/Release/IPA4.Ημερολόγιο.resources
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA2/obj/Release/GenerateResource.read.1.tlog
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA2/obj/Release/GenerateResource.write.1.tlog
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA2/obj/Release/IPA4.TrustInfo.xml
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA2/obj/Release/IPA4.exe.manifest
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA2/obj/Release/IPA4.application
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA2/obj/Release/IPA4.exe
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA2/obj/Release/IPA4.pdb
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/bin/Release/IPA4.exe.config
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/Interop.SpeechLib.dll
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.csproj.ResolveComReference.cache
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.exe
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.pdb
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/bin/Release/IPA4.exe.manifest
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/bin/Release/IPA4.application
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/bin/Release/IPA4.exe
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/bin/Release/IPA4.pdb
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/bin/Release/Interop.SpeechLib.dll
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/ResolveAssemblyReference.cache
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.About.resources
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.FindDialog.resources
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.Form1.resources
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.Help.resources
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.Properties.Resources.resources
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.Ημερολόγιο.resources
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/GenerateResource.read.1.tlog
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/GenerateResource.write.1.tlog
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.TrustInfo.xml
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.exe.manifest
+C:/users/Charalabos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.application
+C:/Users/Charalambos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/bin/Release/IPA4.exe.config
+C:/Users/Charalambos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/Interop.SpeechLib.dll
+C:/Users/Charalambos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.csproj.ResolveComReference.cache
+C:/Users/Charalambos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.exe
+C:/Users/Charalambos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.pdb
+C:/Users/Charalambos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/ResolveAssemblyReference.cache
+C:/Users/Charalambos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/bin/Release/IPA4.exe.manifest
+C:/Users/Charalambos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/bin/Release/IPA4.application
+C:/Users/Charalambos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/bin/Release/IPA4.exe
+C:/Users/Charalambos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/bin/Release/IPA4.pdb
+C:/Users/Charalambos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/bin/Release/Interop.SpeechLib.dll
+C:/Users/Charalambos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.About.resources
+C:/Users/Charalambos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.FindDialog.resources
+C:/Users/Charalambos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.Form1.resources
+C:/Users/Charalambos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.Help.resources
+C:/Users/Charalambos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.Properties.Resources.resources
+C:/Users/Charalambos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.Ημερολόγιο.resources
+C:/Users/Charalambos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/GenerateResource.read.1.tlog
+C:/Users/Charalambos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/GenerateResource.write.1.tlog
+C:/Users/Charalambos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.TrustInfo.xml
+C:/Users/Charalambos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.exe.manifest
+C:/Users/Charalambos/Documents/Visual Studio 2010/Projects/IPA4/IPA4/obj/Release/IPA4.application
+C:/Users/Haris/Documents/Visual Studio 2015/Visual Studio 2010/Projects/IPA4-2/IPA4/bin/Release/IPA4.exe.config
+C:/Users/Haris/Documents/Visual Studio 2015/Visual Studio 2010/Projects/IPA4-2/IPA4/obj/Release/Interop.SpeechLib.dll
+C:/Users/Haris/Documents/Visual Studio 2015/Visual Studio 2010/Projects/IPA4-2/IPA4/obj/Release/IPA4.csproj.ResolveComReference.cache
+C:/Users/Haris/Documents/Visual Studio 2015/Visual Studio 2010/Projects/IPA4-2/IPA4/obj/Release/IPA4.exe
+C:/Users/Haris/Documents/Visual Studio 2015/Visual Studio 2010/Projects/IPA4-2/IPA4/obj/Release/IPA4.pdb
+C:/Users/Haris/Documents/IPA4-2/IPA4/bin/Release/IPA4.exe.config
+C:/Users/Haris/Documents/IPA4-2/IPA4/obj/Release/Interop.SpeechLib.dll
+C:/Users/Haris/Documents/IPA4-2/IPA4/obj/Release/IPA4.csproj.ResolveComReference.cache
+C:/Users/Haris/Documents/IPA4-2/IPA4/obj/Release/IPA4.exe
+C:/Users/Haris/Documents/IPA4-2/IPA4/obj/Release/IPA4.pdb
+C:/Users/Haris/Documents/IPA4-2/IPA4/obj/Release/IPA4.csprojResolveAssemblyReference.cache
+C:/Users/Haris/Documents/IPA4-2/IPA4/bin/Release/IPA4.exe.manifest
+C:/Users/Haris/Documents/IPA4-2/IPA4/bin/Release/IPA4.application
+C:/Users/Haris/Documents/IPA4-2/IPA4/bin/Release/IPA4.exe
+C:/Users/Haris/Documents/IPA4-2/IPA4/bin/Release/IPA4.pdb
+C:/Users/Haris/Documents/IPA4-2/IPA4/bin/Release/Interop.SpeechLib.dll
+C:/Users/Haris/Documents/IPA4-2/IPA4/obj/Release/IPA4.About.resources
+C:/Users/Haris/Documents/IPA4-2/IPA4/obj/Release/IPA4.FindDialog.resources
+C:/Users/Haris/Documents/IPA4-2/IPA4/obj/Release/IPA4.Form1.resources
+C:/Users/Haris/Documents/IPA4-2/IPA4/obj/Release/IPA4.Help.resources
+C:/Users/Haris/Documents/IPA4-2/IPA4/obj/Release/IPA4.Properties.Resources.resources
+C:/Users/Haris/Documents/IPA4-2/IPA4/obj/Release/IPA4.Ημερολόγιο.resources
+C:/Users/Haris/Documents/IPA4-2/IPA4/obj/Release/IPA4.csproj.GenerateResource.Cache
+C:/Users/Haris/Documents/IPA4-2/IPA4/obj/Release/IPA4.TrustInfo.xml
+C:/Users/Haris/Documents/IPA4-2/IPA4/obj/Release/IPA4.exe.manifest
+C:/Users/Haris/Documents/IPA4-2/IPA4/obj/Release/IPA4.application
+/Users/haristhemistocleous/Documents/IPA4_MAC/IPA4/bin/Release/IPA4.exe.config
+/Users/haristhemistocleous/Documents/IPA4_MAC/IPA4/bin/Release/IPA4.exe.manifest
+/Users/haristhemistocleous/Documents/IPA4_MAC/IPA4/bin/Release/IPA4.application
+/Users/haristhemistocleous/Documents/IPA4_MAC/IPA4/bin/Release/IPA4.exe
+/Users/haristhemistocleous/Documents/IPA4_MAC/IPA4/bin/Release/IPA4.pdb
+/Users/haristhemistocleous/Documents/IPA4_MAC/IPA4/obj/Release/IPA4.csprojResolveAssemblyReference.cache
+/Users/haristhemistocleous/Documents/IPA4_MAC/IPA4/obj/Release/IPA4.About.resources
+/Users/haristhemistocleous/Documents/IPA4_MAC/IPA4/obj/Release/IPA4.FindDialog.resources
+/Users/haristhemistocleous/Documents/IPA4_MAC/IPA4/obj/Release/IPA4.Form1.resources
+/Users/haristhemistocleous/Documents/IPA4_MAC/IPA4/obj/Release/IPA4.Help.resources
+/Users/haristhemistocleous/Documents/IPA4_MAC/IPA4/obj/Release/IPA4.Properties.Resources.resources
+/Users/haristhemistocleous/Documents/IPA4_MAC/IPA4/obj/Release/IPA4.Ημερολόγιο.resources
+/Users/haristhemistocleous/Documents/IPA4_MAC/IPA4/obj/Release/IPA4.csproj.GenerateResource.Cache
+/Users/haristhemistocleous/Documents/IPA4_MAC/IPA4/obj/Release/IPA4.csproj.CoreCompileInputs.cache
+/Users/haristhemistocleous/Documents/IPA4_MAC/IPA4/obj/Release/IPA4.exe
+/Users/haristhemistocleous/Documents/IPA4_MAC/IPA4/obj/Release/IPA4.pdb
+/Users/haristhemistocleous/Documents/IPA4_MAC_EN/IPA4/bin/Release/IPA4.exe.config
+/Users/haristhemistocleous/Documents/IPA4_MAC_EN/IPA4/bin/Release/IPA4.exe.manifest
+/Users/haristhemistocleous/Documents/IPA4_MAC_EN/IPA4/bin/Release/IPA4.application
+/Users/haristhemistocleous/Documents/IPA4_MAC_EN/IPA4/bin/Release/IPA4.exe
+/Users/haristhemistocleous/Documents/IPA4_MAC_EN/IPA4/bin/Release/IPA4.pdb
+/Users/haristhemistocleous/Documents/IPA4_MAC_EN/IPA4/obj/Release/IPA4.csprojResolveAssemblyReference.cache
+/Users/haristhemistocleous/Documents/IPA4_MAC_EN/IPA4/obj/Release/IPA4.About.resources
+/Users/haristhemistocleous/Documents/IPA4_MAC_EN/IPA4/obj/Release/IPA4.FindDialog.resources
+/Users/haristhemistocleous/Documents/IPA4_MAC_EN/IPA4/obj/Release/IPA4.Form1.resources
+/Users/haristhemistocleous/Documents/IPA4_MAC_EN/IPA4/obj/Release/IPA4.Help.resources
+/Users/haristhemistocleous/Documents/IPA4_MAC_EN/IPA4/obj/Release/IPA4.Properties.Resources.resources
+/Users/haristhemistocleous/Documents/IPA4_MAC_EN/IPA4/obj/Release/IPA4.Ημερολόγιο.resources
+/Users/haristhemistocleous/Documents/IPA4_MAC_EN/IPA4/obj/Release/IPA4.csproj.GenerateResource.Cache
+/Users/haristhemistocleous/Documents/IPA4_MAC_EN/IPA4/obj/Release/IPA4.csproj.CoreCompileInputs.cache
+/Users/haristhemistocleous/Documents/IPA4_MAC_EN/IPA4/obj/Release/IPA4.exe
+/Users/haristhemistocleous/Documents/IPA4_MAC_EN/IPA4/obj/Release/IPA4.pdb
+\\vmware-host\Shared Folders\IPA4_MAC_EN\IPA4\bin\Release\IPA4.exe.config
+\\vmware-host\Shared Folders\IPA4_MAC_EN\IPA4\obj\Release\IPA4.exe
+\\vmware-host\Shared Folders\IPA4_MAC_EN\IPA4\obj\Release\IPA4.pdb
+\\vmware-host\Shared Folders\IPA4_MAC_EN\IPA4\bin\Release\IPA4.exe.manifest
+\\vmware-host\Shared Folders\IPA4_MAC_EN\IPA4\bin\Release\IPA4.application
+\\vmware-host\Shared Folders\IPA4_MAC_EN\IPA4\bin\Release\IPA4.exe
+\\vmware-host\Shared Folders\IPA4_MAC_EN\IPA4\bin\Release\IPA4.pdb
+\\vmware-host\Shared Folders\IPA4_MAC_EN\IPA4\obj\Release\IPA4.csprojResolveAssemblyReference.cache
+\\vmware-host\Shared Folders\IPA4_MAC_EN\IPA4\obj\Release\IPA4.About.resources
+\\vmware-host\Shared Folders\IPA4_MAC_EN\IPA4\obj\Release\IPA4.FindDialog.resources
+\\vmware-host\Shared Folders\IPA4_MAC_EN\IPA4\obj\Release\IPA4.Form1.resources
+\\vmware-host\Shared Folders\IPA4_MAC_EN\IPA4\obj\Release\IPA4.Help.resources
+\\vmware-host\Shared Folders\IPA4_MAC_EN\IPA4\obj\Release\IPA4.Properties.Resources.resources
+\\vmware-host\Shared Folders\IPA4_MAC_EN\IPA4\obj\Release\IPA4.Ημερολόγιο.resources
+\\vmware-host\Shared Folders\IPA4_MAC_EN\IPA4\obj\Release\IPA4.csproj.GenerateResource.Cache
+\\vmware-host\Shared Folders\IPA4_MAC_EN\IPA4\obj\Release\IPA4.TrustInfo.xml
+\\vmware-host\Shared Folders\IPA4_MAC_EN\IPA4\obj\Release\IPA4.exe.manifest
+\\vmware-host\Shared Folders\IPA4_MAC_EN\IPA4\obj\Release\IPA4.application

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="IPA3">
+</Property><Property Name="Solution File" Value="C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\IPA3.sln">
+</Property><Property Name="User Options File" Value="C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\IPA3.suo">
+</Property><Property Name="Date" Value="Τετάρτη, 12 Μαΐου 2010">
+</Property><Property Name="Time" Value="14:51 μμ">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="IPA3.sln" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA3.sln">
+</Event><Event ErrorLevel="0" Project="" Source="IPA3.suo" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA3.suo">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\IPA3.csproj" Description="Project file successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\IPA3.csproj">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\IPA3.csproj.user" Description="Project user file successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\IPA3.csproj.user">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\About.cs" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\About.cs">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\About.Designer.cs" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\About.Designer.cs">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\FindDialog.cs" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\FindDialog.cs">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\FindDialog.Designer.cs" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\FindDialog.Designer.cs">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\Form1.cs" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\Form1.cs">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\Form1.Designer.cs" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\Help.cs" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\Help.cs">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\Help.Designer.cs" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\Help.Designer.cs">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\Program.cs" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\Program.cs">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\Properties\Settings.Designer.cs" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\Ημερολόγιο.cs" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\Ημερολόγιο.cs">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\Ημερολόγιο.Designer.cs" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\Ημερολόγιο.Designer.cs">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\Properties\Settings.settings" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\Resources\comms_linguistics1.jpg" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\Resources\comms_linguistics1.jpg">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\writer.ico" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\writer.ico">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\About.resx" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\About.resx">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\FindDialog.resx" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\FindDialog.resx">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\Form1.resx" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\Form1.resx">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\Help.resx" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\Help.resx">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\Properties\Resources.resx" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\Ημερολόγιο.resx" Description="File successfully backed up as C:\Users\Charalabos\Documents\Visual Studio 2010\Projects\IPA4\Backup\IPA2\Ημερολόγιο.resx">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\IPA3.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="IPA3" Source="IPA2\IPA3.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="IPA3.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="IPA3.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="IPA3" Source="IPA2\IPA3.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

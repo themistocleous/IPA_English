@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="rtxTextHelp.Text" xml:space="preserve">
+    <value>Παραδείγματα Τυπικών Εκφράσεων
+------------------------------------------
+
+. Ταιριάζει  κάθε απλό χαρακτήρα εκτός από αλλαγή γραμμής πχ. το c.t βρίσκει τα cat and cut , cit, cpt, c&amp;t , κτλ. το c..t βρίσκει τα curt, cant 
+
+[ ] Βρίσκει ένα μονό χαρακτήρα ή ένα σύνολο χαρακτήρων πχ. c[au]t  βρίσκει μόνο τα cat και cut 
+
+[ ]+ Βρίσκει ένα ή περισσότερους χαρακτήρες σε ένα σύνολο χαρακτήρων το  c[a]+t βρίσκει τα cat, caat και caaat, το c[a-z]+t βρίσκει τα cat, cut, clout, cakajhknmht 
+	[0-9]+ βρίσκει ένα σύνολο αριθμών.
+	[0-9a-z]+ βρίσκει αλφαβητικές εκφράσεις. (σημειώση ότι για ένα σύνολο με του ίδιου χαρακτήρα είναι δυνατή και η εξής έκφραση c[a]+t as ca+t) 
+
+[ ]* βρίσκει μηδέν ή περισσότερους χαρακτήρες c[a]*t βρίσκει τα ct, cat and caat and caaat κτλ.
+	c[a-z]*t βρίσκει τα ct, cat, cut, clout, creawtt
+(για ένα σύνολο του ίδιου χαρακτήρα είναι επίσης δυνατή η έκφραση c[a]*t as ca*t) 
+
+[ ]? Βρίσκει μηδέν ή μία φορά σε ένα σύνολο χαρακτήρων, που χρησιμοποιείται για προαιρετικούς χαρακτήρες c[a]?t βρίσκει ct, cat 
+	c[a-z]?t βρίσκει ct, cat, cut, cot, crt, κτλ.
+(σημειώστε ότι για ένα σύνολο ενός χαρακτήρα, θα μπορούσατε να γράψετε επίσης το c[a]?t ως ca?t)
+
+\  ειδικός χαρακτήρας, χρησιμοποιήθηκε για ειδικούς χαρακτήρες και για την παραγνώριση των τυπικών εκφράσεων ώστε να θεωρούνται ως γράμματα
+\n αλλαγή γραμμής
+\d ψηφία όπως [0-9]
+\w αλφαριθμητικοί χαρακτήρες, ισοδύναμο με το [0-9a-z]
+\s διάστημα ή χαρακτήρα αν όπως και το [\t\n\r\f]
+\. η τελεία πρέπει να ακυρωθεί γιατί αλλιώς θα σημαίνει ένα χαρακτήρα μπαλαντέρ.
+\- η παύλα πρέπει να ακυρωθεί γιατί σημαίνει εύρος χαρακτήρων. 
+
+{n} ο χαρακτήρας πρέπει να εμφανιστεί ακριβώς χ φορές ca{3}t βρίσκει μόνο το caaat. 
+c[a-z]{3}t  βρίσκει τα cabct, caaat, coggt , cxyzt {χ,ψ} ο χαρακτήρας πρέπει να κυμαίνεται μεταξύ ca{0,3}t βρίσκει ct, cat, caat, caaat. 
+
+( ) χρησιμοποιείται για να βρει μία διαδοχή χαρακτήρων στην παρένθεση c(at)+ βρίσκει cat, catat, catatatatat, 
+c(at){2} βρίσκει μόνο catat 
+
+^ Βρίσκει ένα χαρακτήρα στην αρχή της γραμμής ^T.+ βρίσκει όλες τις γραμμές σε μία σειρά χαρακτήρων που αρχίζουν με το γράμμα Τ. π.χ. Βρίσκει τη γραμμή Thanks for the coffee! Από την στιγμή που βρίσκεται στην αρχή της γραμμής.
+
+$ Βρίσκει ένα χαρακτήρα στο τέλος της γραμμής. Το ^T.+P$ βρίσκει όλες τις γραμμές που αρχίζουν με T και τελειώνουν με P. </value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAICAQAAAAAADoAgAAJgAAABAQEAAAAAAAKAEAAA4DAAAoAAAAIAAAAEAAAAABAAQAAAAAAIAC
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAMDAwACAgIAAAAD/AAD/
+        AAAA//8A/wAAAP8A/wD//wAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAj///////8AAAAAAAAAAAAI////////AAAAAAAAAAAA
+        CP///////wAAAAAAAAAAAAj/iIiIiP8AAAAAAAAAAAAI//////8AAAAAAAAAAAAACP+IiIiHC7u7AAAA
+        AAAAAAj//////wu7uwAAAAAAAAAI/4iIiIcLu7sAAAAAAAAACP//////C7u7AAAAAAAAAAj/iIiIhwAA
+        AAAAAAAAAAAI////////AAAAAAAAAAAACP+IiIiHAAAAAAAAAAAAAAj//////wu7vwAAAAAAAAAI////
+        //cLu7vwAAAAAAAACP/////3C7u7uHAAAAAAAAj/////9/C7u7uAAAAAAAAIiIiIiIiAcLu7t4AAAAAA
+        AAAAAAAAAAALu7sAAAAAAAAAAAAAAAAAALu7AAAAAAAAAAAAC7uwAAC7uwAAAAAAAAAAAAu7sAAAu7sA
+        AAAAAAAAAAALu7sAC7u7AAAAAAAAAAAAcLu7u7u7sHAAAAAAAAAAAAh7u7u7u3AAAAAAAAAAAAAAgLu7
+        u7AAAAAAAAAAAAAAAACAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
+        ////////+AAf//gAH//4AB//+AAf//gAH//4AAH/+AAB//gAAf/4AAH/+AAB//gAAf/4AB//+AAB//gA
+        Af/4AAD/+AAAf/gAAD/4AEAf///wH//wOB//8Dgf//A4H//wAB//8AAf//gAP//8AH///wH/////////
+        //8oAAAAEAAAACAAAAABAAQAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAA
+        AACAAIAAgIAAAMDAwACAgIAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AIAAAAAAAAAAj////zAA
+        MACP////C7sAAI/4iI8LuwAAj////zAAMACP+IiP8AAAAI////84iIAAj/iIjzu3AACP//+AO7twAI//
+        //9Au7cAj/9wADgLuwCIiIC7eIe7AAAAA7uzO7sAAAAAO7u7t4AAAAADu7tzAAAAAAAzMzAAAD8AAAAH
+        AAAABwAAAAcAAAAHAAAAPwAAAAcAAAAHAAAAAwAAAAEAAAABAAAAAQAA+AEAAPwBAAD+AwAA/wcAAA==
+</value>
+  </data>
+</root>

@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{1D683C5C-9738-46CA-87F3-C3BCC90D1E9A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="IPA4/Form1.Designer.cs">
+    <Files>
+      <File FileName="IPA4/Form1.Designer.cs" Line="1620" Column="2" />
+      <File FileName="IPA4/Program.cs" Line="17" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.IPA4 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

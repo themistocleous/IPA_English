@@ -1,0 +1,217 @@
+Sub exportRTF()
+Dim rstResults As Recordset
+Dim sqlString, rtfString, buffer As String
+Dim gramKat(10), lxGramKat(10) As String
+Dim i, j, lastPos As Integer
+On Error GoTo errHandler
+
+sqlString = "SELECT * " & _
+            "FROM [ÀÂÓÈÍ¸ 3ÁÚ ÷‹ÛÁÚ (26-11-00)] " & _
+            "WHERE [ÀÂÓÈÍ¸ 3ÁÚ ÷‹ÛÁÚ (26-11-00)].[KEFALAIA] LIKE '‘*' " & _
+            "ORDER BY [ÀÂÓÈÍ¸ 3ÁÚ ÷‹ÛÁÚ (26-11-00)].[LEMMA]"
+Set rstResults = CurrentDb.OpenRecordset(sqlString)
+
+Open "c:\windows\desktop\rtfLemmas.rtf" For Output As 1
+rtfString = "{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fnil MS Sans Serif;}{\f1\froman\fcharset2 Symbol;}{\f2\fswiss\fcharset161{\*\fname MS Sans Serif;}MS Shell Dlg;}{\f3\froman\fprq2\fcharset161{\*\fname Times New Roman;}Times New Roman Greek;}{\f4\froman\fprq2 Times New Roman;}{\f5\fswiss\fcharset161{\*\fname Arial;}Arial Greek;}{\f6\fnil\fprq2\fcharset2 Monotype Sorts;}{\f7\fswiss\fcharset162{\*\fname Arial;}Arial Tur;}}"
+Print #1, rtfString
+rtfString = "{\colortbl\red0\green0\blue0;}"
+Print #1, rtfString
+rtfString = "\paperw11907\paperh16840\margl567\margr567\margt1134\margb1134 \widowctrl\ftnbj\aenddoc\hyphcaps0\viewkind1\viewscale112\viewzk2 \fet0\sectd"
+Print #1, rtfString
+rtfString = "\psz9\linex0\headery709\footery709\cols2\colsx284\sectdefaultcl"
+Print #1, rtfString
+rtfString = "\deflang1032\pard\plain\f5\fs20"
+Print #1, rtfString
+
+rstResults.MoveFirst
+rstResults.MoveLast
+MsgBox rstResults.RecordCount
+rstResults.MoveFirst
+
+Do While Not rstResults.EOF
+    ''''''''''''''''''''''
+    '
+    ' LEMMA
+    '
+    ''''''''''''''''''''''
+    rtfString = "\b\fs24 " & rstResults.Fields(1) & " " & "\plain\f5\fs20 "
+    If Not IsNull(rstResults.Fields(2).Value) Then
+        rtfString = rtfString & "(" & rstResults.Fields(2) & ") "
+    End If
+    
+    ''''''''''''''''''''''
+    '
+    ' SYLLABES
+    '
+    ''''''''''''''''''''''
+    If Not IsNull(rstResults.Fields(3).Value) Then
+        rtfString = rtfString & "[" & rstResults.Fields(3) & "] "
+    End If
+
+    ''''''''''''''''''''''
+    '
+    ' MEROS LOGOU
+    '
+    ''''''''''''''''''''''
+    If Not IsNull(rstResults.Fields(5).Value) Then
+        rtfString = rtfString & "\i " & rstResults.Fields(5) & " " & "\plain\f5\fs20 "
+    End If
+
+    '''''''''''''''''''''''''
+    '
+    ' LEXEIS GRAM KATHGORIAS
+    '
+    '''''''''''''''''''''''''
+    If Not IsNull(rstResults.Fields(7).Value) And Not IsNull(rstResults.Fields(8).Value) Then
+        j = 1
+        lastPos = 1
+        For i = 1 To Len(rstResults.Fields(7).Value)
+            buffer = Mid(rstResults.Fields(7).Value, i, 1)
+            If buffer = "$" Then
+                gramKat(j) = Mid(rstResults.Fields(7).Value, lastPos, i - lastPos)
+                j = j + 1
+                lastPos = i + 1
+            End If
+        Next
+        j = 1
+        lastPos = 1
+        For i = 1 To Len(rstResults.Fields(8).Value)
+            buffer = Mid(rstResults.Fields(8).Value, i, 1)
+            If buffer = "$" Then
+                lxGramKat(j) = Mid(rstResults.Fields(8).Value, lastPos, i - lastPos)
+                j = j + 1
+                lastPos = i + 1
+            End If
+        Next
+        rtfString = rtfString & "\{"
+        For i = 1 To j - 1
+            If i = j - 1 Then
+                ' changed on 20-02-02 include only lxGramKat(), not gramKat() after Maria's request
+                ' rtfString = rtfString & gramKat(i) & ": " & lxGramKat(i)
+                rtfString = rtfString & lxGramKat(i)
+            Else
+                ' changed on 20-02-02 include only lxGramKat(), not gramKat() after Maria's request
+                ' rtfString = rtfString & gramKat(i) & ": " & lxGramKat(i) & ", "
+                rtfString = rtfString & lxGramKat(i) & ", "
+            End If
+        Next
+        rtfString = rtfString & "\} "
+    End If
+    
+    ''''''''''''''''''''''
+    '
+    ' PARADEIGMA 1
+    '
+    ''''''''''''''''''''''
+    If Not IsNull(rstResults.Fields(10).Value) Then
+        rtfString = rtfString & "\b " & "1. " & "\plain\f5\fs20 "
+        rtfString = rtfString & rstResults.Fields(10).Value & " "
+        If Not IsNull(rstResults.Fields(11).Value) Then
+            rtfString = rtfString & "”’Õ: " & rstResults.Fields(11).Value & " "
+        End If
+        If Not IsNull(rstResults.Fields(12).Value) Then
+            rtfString = rtfString & "¡Õ‘: " & rstResults.Fields(12).Value & " "
+        End If
+        If Not IsNull(rstResults.Fields(15).Value) Then
+            rtfString = rtfString & "(Ù. ÏÙˆ: \b\f7\fs20 " & rstResults.Fields(15).Value & "\plain\f5\fs20) "
+        End If
+        If Not IsNull(rstResults.Fields(14).Value) Then
+            rtfString = rtfString & " \par " & "{\field{\*\fldinst { INCLUDEPICTURE ""J:\\\\Develop\\\\Muslims\\\\Phase 3\\\\allMedia\\\\" & rstResults.Fields(14).Value & """ \\c pictim32 \\d }}{\fldrslt }}" & " \par "
+        End If
+    End If
+
+    ''''''''''''''''''''''
+    '
+    ' PARADEIGMA 2
+    '
+    ''''''''''''''''''''''
+    If Not IsNull(rstResults.Fields(16).Value) Then
+        rtfString = rtfString & "\b " & "2. " & "\plain\f5\fs20 "
+        rtfString = rtfString & rstResults.Fields(16).Value & " "
+        If Not IsNull(rstResults.Fields(17).Value) Then
+            rtfString = rtfString & "”’Õ: " & rstResults.Fields(17).Value & " "
+        End If
+        If Not IsNull(rstResults.Fields(18).Value) Then
+            rtfString = rtfString & "¡Õ‘: " & rstResults.Fields(18).Value & " "
+        End If
+        If Not IsNull(rstResults.Fields(21).Value) Then
+            rtfString = rtfString & "(Ù. ÏÙˆ: \b\f7\fs20 " & rstResults.Fields(21).Value & "\plain\f5\fs20) "
+        End If
+        If Not IsNull(rstResults.Fields(20).Value) Then
+            rtfString = rtfString & " \par " & "{\field{\*\fldinst { INCLUDEPICTURE ""J:\\\\Develop\\\\Muslims\\\\Phase 3\\\\allMedia\\\\" & rstResults.Fields(20).Value & """ \\c pictim32 \\d }}{\fldrslt }}" & " \par "
+        End If
+    End If
+
+    ''''''''''''''''''''''
+    '
+    ' PARADEIGMA 3
+    '
+    ''''''''''''''''''''''
+    If Not IsNull(rstResults.Fields(22).Value) Then
+        rtfString = rtfString & "\b " & "3. " & "\plain\f5\fs20 "
+        rtfString = rtfString & rstResults.Fields(22).Value & " "
+        If Not IsNull(rstResults.Fields(23).Value) Then
+            rtfString = rtfString & "”’Õ: " & rstResults.Fields(23).Value & " "
+        End If
+        If Not IsNull(rstResults.Fields(24).Value) Then
+            rtfString = rtfString & "¡Õ‘: " & rstResults.Fields(24).Value & " "
+        End If
+        If Not IsNull(rstResults.Fields(27).Value) Then
+            rtfString = rtfString & "(Ù. ÏÙˆ: \b\f7\fs20 " & rstResults.Fields(27).Value & "\plain\f5\fs20) "
+        End If
+        If Not IsNull(rstResults.Fields(26).Value) Then
+            rtfString = rtfString & " \par " & "{\field{\*\fldinst { INCLUDEPICTURE ""J:\\\\Develop\\\\Muslims\\\\Phase 3\\\\allMedia\\\\" & rstResults.Fields(26).Value & """ \\c pictim32 \\d }}{\fldrslt }}" & " \par "
+        End If
+    End If
+
+    ''''''''''''''''''''''
+    '
+    ' PARADEIGMA 4
+    '
+    ''''''''''''''''''''''
+    If Not IsNull(rstResults.Fields(28).Value) Then
+        rtfString = rtfString & "\b " & "4. " & "\plain\f5\fs20 "
+        rtfString = rtfString & rstResults.Fields(28).Value & " "
+        If Not IsNull(rstResults.Fields(29).Value) Then
+            rtfString = rtfString & "”’Õ: " & rstResults.Fields(29).Value & " "
+        End If
+        If Not IsNull(rstResults.Fields(30).Value) Then
+            rtfString = rtfString & "¡Õ‘: " & rstResults.Fields(30).Value & " "
+        End If
+        If Not IsNull(rstResults.Fields(33).Value) Then
+            rtfString = rtfString & "(Ù. ÏÙˆ: \b\f7\fs20 " & rstResults.Fields(33).Value & "\plain\f5\fs20) "
+        End If
+        If Not IsNull(rstResults.Fields(32).Value) Then
+            rtfString = rtfString & " \par " & "{\field{\*\fldinst { INCLUDEPICTURE ""J:\\\\Develop\\\\Muslims\\\\Phase 3\\\\allMedia\\\\" & rstResults.Fields(32).Value & """ \\c pictim32 \\d }}{\fldrslt }}" & " \par "
+        End If
+    End If
+    
+    ''''''''''''''''''''''
+    '
+    ' SXETIKES LEXEIS
+    '
+    ''''''''''''''''''''''
+    ' SXETIKES LEXEIS section moved to the end after Maria's request 20-02-02
+    If Not IsNull(rstResults.Fields(9).Value) Then
+        'rtfString = rtfString & "\plain\f6\fs32 " & "\'db " & "\plain\f5\fs20 "
+        rtfString = rtfString & "(‚Î. Î. " & rstResults.Fields(9).Value & ") "
+    End If
+
+    
+    Debug.Print "Exporting Lemma: " & rstResults.AbsolutePosition + 1 & " of " & rstResults.RecordCount
+    Print #1, rtfString
+    Print #1, "\par "
+    rstResults.MoveNext
+Loop
+
+Print #1, "}"
+rstResults.Close
+Close 1
+MsgBox "DONE!", vbOKOnly + vbInformation, "OK !"
+
+errHandler:
+If Err.Number = 70 Then
+    MsgBox "‘Ô ·Ò˜ÂﬂÔ ÂÓ¸‰Ôı ÂﬂÌ·È ·ÌÔÈÍÙ¸!", vbOKOnly + vbCritical, "–—œ”œ◊« !"
+    rstResults.Close
+End If
+End Sub

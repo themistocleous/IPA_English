@@ -1,0 +1,9 @@
+/Users/haris/Reference/Software/Visual Studio 2010/Projects/IPA4-2/IPA4/obj/Release/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/haris/Reference/Software/Visual Studio 2010/Projects/IPA4-2/IPA4/obj/Release/IPA4.About.resources
+/Users/haris/Reference/Software/Visual Studio 2010/Projects/IPA4-2/IPA4/obj/Release/IPA4.FindDialog.resources
+/Users/haris/Reference/Software/Visual Studio 2010/Projects/IPA4-2/IPA4/obj/Release/IPA4.Form1.resources
+/Users/haris/Reference/Software/Visual Studio 2010/Projects/IPA4-2/IPA4/obj/Release/IPA4.Help.resources
+/Users/haris/Reference/Software/Visual Studio 2010/Projects/IPA4-2/IPA4/obj/Release/IPA4.Properties.Resources.resources
+/Users/haris/Reference/Software/Visual Studio 2010/Projects/IPA4-2/IPA4/obj/Release/IPA4.Ημερολόγιο.resources
+/Users/haris/Reference/Software/Visual Studio 2010/Projects/IPA4-2/IPA4/obj/Release/IPA4.exe
+/Users/haris/Reference/Software/Visual Studio 2010/Projects/IPA4-2/IPA4/obj/Release/IPA4.pdb

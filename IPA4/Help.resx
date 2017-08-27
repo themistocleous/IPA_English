@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="rtxTextHelp.Text" xml:space="preserve">
+    <value>Examples of Typical Expressions
+------------------------------------------
+
+. Matches every simple character except for a line change eg ct matches the cat and cut, cit, cpt, c &amp; t, etc. c..t matches the curt, cant
+
+[] c a single character or set of characters eg c [au] t matches only the cat and cut
+
+[] + Matches one or more characters in a set of characters c [a] + t matches cat, caat and caaat, c [a-z] + t matches cat, cut, clout, cakajhknmht
+[0-9] + matches a set of numbers.
+[0-9a-z] + matches alphabetic expressions. (Note that for a set with the same character, the following expression c [a] + t as ca + t)
+
+[] * Matches zero or more characters c [a] * t matches ct, cat and caat and caaat etc.
+c [a-z] * t matches ct, cat, cut, clout, createwtt
+(for a set of the same character it is also possible to express c [a] * t as ca * t)
+
+[]? Matches zero or once in a character set, used for optional characters c [a]? T matches ct, cat
+c [a-z]? t matches ct, cat, cut, cot, crt, etc.
+(Note that for a set of a character, you could also write c [a]? T as ca? T)
+
+\ Special character, was used for special characters and for ignoring formal expressions to be considered as letters
+\ N line change
+\ d digits such as [0-9]
+\ w alphanumeric characters, equivalent to [0-9a-z]
+\ S space or character if like [\ t \ n \ r \ f]
+\. the dot must be canceled because otherwise it would mean a wildcard character.
+\ - the dash must be canceled because it means a range of characters.
+
+{N} the character must appear exactly x times as {3} t matches only the caaat.
+C {a-z] {3} t matches the cabct, caaat, coggt, cxyzt {χ, ψ} the character must be between ca {0,3} t find ct, cat, caat, caaat.
+
+() Is used to find a sequence of characters in brackets c (at) + matches cat, catat, catatatat,
+C (at) {2} matches only catat
+
+^ Matches a character at the beginning of the line ^ T. + matches all lines in a string of characters beginning with the letter T. eg. Matches the Thanks for the Coffee line! From the moment it is at the beginning of the line.
+
+$ Matches a character at the end of the line. ^ T. + P $ matches all lines beginning with T and ending with P.</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAICAQAAAAAADoAgAAJgAAABAQEAAAAAAAKAEAAA4DAAAoAAAAIAAAAEAAAAABAAQAAAAAAIAC
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAMDAwACAgIAAAAD/AAD/
+        AAAA//8A/wAAAP8A/wD//wAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAj///////8AAAAAAAAAAAAI////////AAAAAAAAAAAA
+        CP///////wAAAAAAAAAAAAj/iIiIiP8AAAAAAAAAAAAI//////8AAAAAAAAAAAAACP+IiIiHC7u7AAAA
+        AAAAAAj//////wu7uwAAAAAAAAAI/4iIiIcLu7sAAAAAAAAACP//////C7u7AAAAAAAAAAj/iIiIhwAA
+        AAAAAAAAAAAI////////AAAAAAAAAAAACP+IiIiHAAAAAAAAAAAAAAj//////wu7vwAAAAAAAAAI////
+        //cLu7vwAAAAAAAACP/////3C7u7uHAAAAAAAAj/////9/C7u7uAAAAAAAAIiIiIiIiAcLu7t4AAAAAA
+        AAAAAAAAAAALu7sAAAAAAAAAAAAAAAAAALu7AAAAAAAAAAAAC7uwAAC7uwAAAAAAAAAAAAu7sAAAu7sA
+        AAAAAAAAAAALu7sAC7u7AAAAAAAAAAAAcLu7u7u7sHAAAAAAAAAAAAh7u7u7u3AAAAAAAAAAAAAAgLu7
+        u7AAAAAAAAAAAAAAAACAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////////
+        ////////+AAf//gAH//4AB//+AAf//gAH//4AAH/+AAB//gAAf/4AAH/+AAB//gAAf/4AB//+AAB//gA
+        Af/4AAD/+AAAf/gAAD/4AEAf///wH//wOB//8Dgf//A4H//wAB//8AAf//gAP//8AH///wH/////////
+        //8oAAAAEAAAACAAAAABAAQAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAA
+        AACAAIAAgIAAAMDAwACAgIAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AIAAAAAAAAAAj////zAA
+        MACP////C7sAAI/4iI8LuwAAj////zAAMACP+IiP8AAAAI////84iIAAj/iIjzu3AACP//+AO7twAI//
+        //9Au7cAj/9wADgLuwCIiIC7eIe7AAAAA7uzO7sAAAAAO7u7t4AAAAADu7tzAAAAAAAzMzAAAD8AAAAH
+        AAAABwAAAAcAAAAHAAAAPwAAAAcAAAAHAAAAAwAAAAEAAAABAAAAAQAA+AEAAPwBAAD+AwAA/wcAAA==
+</value>
+  </data>
+</root>
