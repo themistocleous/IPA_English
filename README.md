@@ -1,5 +1,6 @@
 # PhoneticsIPA
-<img src="/img/img_papers/englishipa.jpg" alt="IPA4" style="width: 400px;"/>
+## IPA 4
+<img src="https://github.com/themistocleous/IPA_English/blob/master/Capture.JPG" alt="IPA4" style="width: 400px;"/>
 
 The Phonetics (IPAGreek) is a computational implementation (in a windows text editor) of Standard Modern Greek and Cypriot Greek "phonological grammar". The application enables users to transcribe text written in Greek orthography into the International Phonetics Alphabet (IPA).
 
