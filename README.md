@@ -1,6 +1,6 @@
 # PhoneticsIPA
 ## IPA 4
-<img src="capture.jpg" alt="IPA4" style="width: 400px;"/>
+<img src="https://github.com/themistocleous/IPA_English/blob/master/Capture.JPG" alt="IPA4" style="width: 400px;"/>
 This a Windows text editor that allows the user to
 
 - to type text in standard Greek orthography and convert it to IPA.
