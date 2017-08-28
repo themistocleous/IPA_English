@@ -18,6 +18,6 @@ The application can help phoneticians, sociolinguistics, lexicographers etc. to 
 ## Cite:
 You may cite the software as follows:
 
-Themistocleous Charalambos (2017). Praat: doing phonetics by computer [Computer program]. Version 3.0, retrieved 21 August 2017 from http://charalambosthemistocleous.com
+Themistocleous Charalambos (2017).  IPAGreek: Computational Greek Phonology [Computer program]. Version 3.0, retrieved 21 August 2017 from http://charalambosthemistocleous.com
 
 Themistocleous, Charalambos (2011). Computational Greek Phonology: IPAGreek. The 10th International Conference of Greek Linguistics. Komotini, Greece.
